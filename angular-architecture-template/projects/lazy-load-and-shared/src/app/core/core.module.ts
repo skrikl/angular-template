@@ -1,17 +1,17 @@
+// modules
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-
+// components
+import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    // vendor
-    BrowserModule,
-    BrowserAnimationsModule
-
-  ],
-  exports: []
+    declarations: [MainLayoutComponent],
+    imports: [
+        // vendor
+        BrowserModule,
+        BrowserAnimationsModule,
+    ],
+    exports: [MainLayoutComponent],
 })
-export class CoreModule { }
+export class CoreModule {}
