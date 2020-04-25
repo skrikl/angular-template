@@ -4,9 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 // material
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatButtonModule} from '@angular/material/button';
-
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
 
 // components
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
@@ -19,7 +18,7 @@ import { MainLayoutComponent } from './layout/main-layout/main-layout.component'
         RouterModule,
         // material
         MatToolbarModule,
-        MatButtonModule
+        MatButtonModule,
     ],
     exports: [MainLayoutComponent],
 })
